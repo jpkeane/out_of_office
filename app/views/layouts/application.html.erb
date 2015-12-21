@@ -23,7 +23,7 @@
 	<div class="alert alert-danger" role="alert">James Keane is out of the office for Christmas. This bot basically does his job anyway...</div>
 	<div class="jumbotron">
     <%= yield %>
-	<%= button_to "Refresh", "", { :onclick => "history.go(0)" } %>
+	<p><a class="btn btn-default" href="<%= root_path %>" role="button">Click for more wisdom</a></p>
 </div>
 </div>
   </body>
